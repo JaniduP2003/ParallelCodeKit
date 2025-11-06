@@ -1,0 +1,40 @@
+# Ignore all files by default
+*
+
+# But allow source code and headers
+!*.c
+!*.cpp
+!*.cu
+!*.h
+!*.hpp
+
+# Allow gitignore itself
+!.gitignore
+!README*
+!LICENSE*
+
+# Ignore compiled binaries and object files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Ignore build directories
+build/
+cmake-build-*/
+bin/
+obj/
+dist/
+
+# Ignore editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
