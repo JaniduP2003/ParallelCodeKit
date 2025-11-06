@@ -72,8 +72,7 @@ void printFullImageView(int width, int height, dim3 grid, dim3 block) {
 }
 
 int main() {
-    const int width = 10
-    ;
+    const int width = 10;
     const int height = 10;
     const int size = width * height * sizeof(float);
 
